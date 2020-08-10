@@ -1,0 +1,16 @@
+{
+    "apps": [
+        {
+            "name": "ethertree-website",
+            "script": "server.js",
+            "env": {
+                "PORT": 8071,
+                "NODE_ENV": "development"
+            },
+            "env_production": {
+                "PORT": 8071,
+                "NODE_ENV": "development"
+            }
+        }
+    ]
+}
