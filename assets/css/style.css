@@ -358,6 +358,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
   font-size: 24px;
 }
+#hero span {
+  color: #a2ca22;
+  font-weight: 700;
+}
 
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
@@ -370,7 +374,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px;
   transition: 0.5s;
   color: #fff;
-  background: #009cea;
+  background: linear-gradient(-45deg, #1f73d7, #254ab4);
 }
 
 #hero .btn-get-started:hover {
@@ -1105,9 +1109,9 @@ section {
   font-size: 48px;
   line-height: 48px;
   display: block;
-  font-weight: 700;
+  font-weight: 600;
   color: #009cea;
-  margin-left: 80px;
+  padding-left: 10px;
   margin: auto;
 }
 
