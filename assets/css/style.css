@@ -359,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 #hero span {
-  color: #a2ca22;
+  color: #753900;
   font-weight: 700;
 }
 
@@ -1102,7 +1102,8 @@ section {
 }
 
 .counts .count-box img {
-  height: 40px;
+  height: 60px;
+  margin-bottom: 10px;
 }
 
 .counts .count-box span {
@@ -1110,8 +1111,7 @@ section {
   line-height: 48px;
   display: block;
   font-weight: 600;
-  color: #009cea;
-  padding-left: 10px;
+  color: #254eb7;
   margin: auto;
 }
 
@@ -1120,5 +1120,5 @@ section {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
-  color: #1e6ca6;
+  color: #254eb7;
 }
