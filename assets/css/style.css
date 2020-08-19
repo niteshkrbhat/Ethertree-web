@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #254ab2;
+  background: #3bb83b;
   color: #fff;
   transition: all 0.4s;
 }
@@ -513,6 +513,14 @@ section {
   background: url("../img/about.jpg") center center no-repeat;
   background-size: cover;
   border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .about .video-box {
+    border-radius: 0px;
+    height: 200px;
+
+  }
 }
 
 @media (min-width: 1200px) {
@@ -1431,4 +1439,60 @@ blockquote {
     -moz-animation-delay: 1s;
     -o-animation-duration:1s;
     animation-delay: 1s;
+}
+
+.advantage .service-block {
+  background: #fff;
+  padding: 30px 40px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.advantage .service-block:hover {
+  transform: scale(1.1);
+  transition: all .5s ease 0s
+}
+
+.advantage .service-block:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 480px) {
+  .advantage .service-block:last-child {
+    margin-bottom: 30px;
+  }
+}
+
+.advantage .service-block h3 {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.advantage .service-block i {
+  font-size: 30px;
+  color: #2e7eed;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.advantage .service-block img {
+    height: 60px;
+    margin-bottom: 10px;
+}
+.advantage .service-block p {
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.advantage .app-preview {
+  display: flex;
+  justify-content: center !important;
+}
+
+.advantage .app-preview img {
+  height: 200px;
+  width: auto;
 }
