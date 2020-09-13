@@ -10072,7 +10072,7 @@ tr:nth-last-child(2) td.ui-sgcollapsed.sgexpanded:before {
 }
 .history-item {
 	border-radius: 4px;
-	background-color: #3bb83b;
+	background-color: #96642a;
 	margin-bottom: 50px;
 	position: relative;
 }
@@ -10089,7 +10089,7 @@ tr:nth-last-child(2) td.ui-sgcollapsed.sgexpanded:before {
 	overflow-no: hidden;
 }
 .history-item--blockchain .history-item__wrapper{
-	background-color: #3bb83b;
+	background-color: #96642a;
 }
 .history-item--blockchain .history-item__wrapper{
 	box-shadow-no: 0 15px 34px rgba(27, 118, 190, 0.34);
@@ -10149,15 +10149,15 @@ tr:nth-last-child(2) td.ui-sgcollapsed.sgexpanded:before {
     left: -40.5px;
 }
 .history-item--congress:after {
-	background-color: #3bb83b;
+	background-color: #96642a;
 }
 .history-item--blockchain:after,
 .history-item--blockchain:before {
-	background-color: #3bb83b;
+	background-color: #96642a;
 }
 .history-item--leadership:after,
 .history-item--leadership:before {
-	background-color: #3bb83b;
+	background-color: #96642a;
 }
 .history-item__date {
     position: relative;

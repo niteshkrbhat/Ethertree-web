@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #3bb83b;
+  background: #96642a;
   color: #fff;
   transition: all 0.4s;
 }
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #254AB2;
+  color: #eb0a29;
   text-decoration: none;
 }
 
@@ -359,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 #hero span {
-  color: #753900;
+  color: #9a692f;
   font-weight: 700;
 }
 
@@ -374,7 +374,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px;
   transition: 0.5s;
   color: #fff;
-  background: linear-gradient(-45deg, #1f73d7, #254ab4);
+  background: linear-gradient(-45deg, #96642a, #c09e64);
 }
 
 #hero .hero-img {
@@ -414,7 +414,7 @@ section {
 .section-title h2 {
   font-size: 28px;
   font-weight: 700;
-  color: #3bb83b;
+  color: #111;
   margin-bottom: 15px;
 }
 
@@ -451,7 +451,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #3bb83b;
+  color: #111;
   margin-bottom: 15px;
 }
 
@@ -533,7 +533,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#3bb83b 50%, rgba(59 184 59) 52%);
+  background: radial-gradient(#96642a 50%, rgb(150 100 42) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -714,7 +714,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #3AB83A;
+  background: #96642a;
   color: #fff;
   text-decoration: none;
 }
@@ -739,7 +739,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #3AB83A;
+  color: #96642a;
   font-size: 18px;
   line-height: 1;
 }
@@ -1009,7 +1009,7 @@ section {
   font-weight: 500;
   padding: 0 30px;
   outline: none;
-  color: #3bb83b;
+  color: #96642a;
 }
 
 .faq .faq-list .icon-help {
@@ -1117,16 +1117,16 @@ section {
   line-height: 48px;
   display: block;
   font-weight: 600;
-  color: #254eb7;
+  color: #96642a;
   margin: auto;
 }
 
 .counts .count-box p {
   padding: 8px 0 0 0;
   font-family: "Raleway", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 14px;
-  color: #254eb7;
+  color: #111;
 }
 
 .timeline {
